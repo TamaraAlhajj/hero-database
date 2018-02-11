@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Superhero Viewer</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="loadSuperheroes.js"></script>
+	</head>
+	<body>
+		<h1>Hero Database!</h1>
+		<h2>Tamara Alhajj </h2>
+		<h3>100948027 </h3>
+		<div id="dropdown">
+			<p>SUPERHEROS:</p>
+			<select id="superheroes">
+				<option value=0>With great choice comes great responsibility...</option>
+			</select>
+			<button type="button" onclick="getHero()">Submit</button>
+		</div>
+
+		<div id="display">
+			<p> Name: </p>
+			<textarea rows="3" cols="50" id="name"></textarea>
+			<br><br>
+			<p> AlterEgo: </p>
+			<textarea rows="3" cols="50" id="alterEgo"></textarea>
+			<br><br>
+			<p> Jurisdiction:</p>
+			<textarea rows="3" cols="50" id="jurisdiction"></textarea>
+			<br><br>
+			<p> Superpowers: </p>
+			<textarea rows="15" cols="50" id="superpowers"></textarea>
+			<br><br>
+		</div>
+		</body>
+</html>

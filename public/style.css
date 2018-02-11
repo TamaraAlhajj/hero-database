@@ -1,0 +1,16 @@
+/*Tamara Alhajj 100948027*/
+
+body{
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: DarkSlateGray
+}
+
+output, h1, h2, h3{
+	border-style:groove;
+	background-color:black;
+	color:white;
+}
+
+#display{
+	border-style: groove
+}
